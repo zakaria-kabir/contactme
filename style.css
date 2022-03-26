@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#contact {
+  background-image: url('./img/bg2.svg');
+  background-size: cover;
+}
+#contact #heroimg {
+  max-width: 70%;
+}
+#contact .btn {
+  color: black;
+  background: linear-gradient(
+    to right,
+    rgba(109, 109, 109, 0.267),
+    rgba(0, 195, 255, 0.561)
+  );
+  border: 0;
+}
+#contact .btn:hover {
+  background: linear-gradient(
+    to left,
+    rgba(109, 109, 109, 0.267),
+    rgba(0, 195, 255, 0.561)
+  );
+  transform: scale(1.03);
+  transition: 0.7s ease-in-out;
+}
+/* #contact .alert {
+  display: none;
+} */
