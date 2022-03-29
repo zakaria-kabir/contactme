@@ -1,11 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
 * {
   padding: 0;
   margin: 0;
+  font-family: 'Slabo 27px', serif;
+}
+.navbar .show {
+  background: rgb(255, 255, 255);
+}
+.navbar-light .navbar-nav .nav-link.active {
+  color: rgba(255, 255, 255, 0.9);
+}
+.navbar-light .navbar-collapse.show .navbar-nav .nav-item .nav-link.active {
+  color: rgb(0, 0, 0);
 }
 
 .btn-cus {
   letter-spacing: 0;
-  border-color: rgb(12, 213, 240);
+  border-color: rgb(255, 255, 255);
 }
 
 .btn-cus:hover,
@@ -38,4 +50,8 @@
   bottom: auto;
   top: 0;
   width: 70%;
+}
+.wrap {
+  background: rgb(150, 150, 150);
+  background: linear-gradient(to bottom, #eeeeee 0%, #bdbdbd 50%, #616161 100%);
 }
